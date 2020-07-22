@@ -1,0 +1,49 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+.submit-area,
+.btn,
+input,
+body{
+    text-transform: capitalize;
+}
+#login-area{
+    padding: 100px;
+}
+.submit-area{
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+.form-control{
+    margin-bottom: 20px;
+}
+#transition-area{
+    display: none;
+    padding: 100px;
+}
+.deposit{
+    background: lightskyblue;
+    margin: 0 15%;
+    font-weight: 400;
+}
+.withdraw{
+    background: lightsalmon;
+    margin: 0 15%;
+    font-weight: 400;
+}
+.balance{
+    background: orange;
+    margin: 0 15%;
+    font-weight: 400;
+}
+.deposit,
+.withdraw,
+.balance{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 5px ;
+}
